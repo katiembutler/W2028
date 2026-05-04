@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #667153;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-sage: #667153;
+  --color-light-sage: #838E71;
+  --color-light-beige: #C4B8B1;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-pinyon: "Pinyon Script", cursive;
+  --font-c_g: "Cormorant_Garamond";
+  --font-c_sc: "Cormorant_SC";
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #EBE2DE;
+    --foreground: #667153;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: c_sc;
+  font-size: 18px;
+  justify-content: center;
+}
+
+
+body {
+  /* The keyword 'auto' at the end is required as a fallback! */
+  cursor: url('/images/bouquet.png'), auto;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+@keyframes falling-petal {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(var(--start-rot)) scale(1);
+  }
+  100% {
+    opacity: 0;
+    /* var(--offset-x) makes them drift left/right randomly! */
+    transform: translate(var(--offset-x), 150px) rotate(var(--end-rot)) scale(0.6);
+  }
+}
+
+.animate-petal {
+  /* We use a cubic-bezier to make it float slowly at first, then drop */
+  animation: falling-petal 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
