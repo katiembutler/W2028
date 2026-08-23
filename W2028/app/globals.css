@@ -37,7 +37,7 @@ body {
 
 body {
   /* The keyword 'auto' at the end is required as a fallback! */
-  cursor: url('/images/bouquet.png'), auto;
+  cursor: pointer, auto;
 }
 
 a, button {

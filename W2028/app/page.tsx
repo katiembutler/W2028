@@ -8,7 +8,7 @@ export default function Home() {
       <Countdown />
       <h6 className="text-2xl font-pinyon font-semibold pt-0">Until We Say 'I Do'</h6>
       <h1 className="text-9xl font-pinyon text-light-beige pt-20">Katie & Xavier</h1>
-      <h1 className="text-4xl font-c_g pt-4">Are Getting Married!</h1>
+      <h1 className="text-4xl font-c_g pt-4">April 22, 2028 - Wilson's Orchard, Iowa City </h1>
       <p className="mt-4 text-xl mb-50"> Welcome to Our Wedding Website</p>
       <Polaroids />
       <Wp_page />

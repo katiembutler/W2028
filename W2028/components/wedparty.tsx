@@ -8,73 +8,73 @@ export default function Wp_page() {
             id: 1,
             name: 'Madison Gonnerman',
             pos: 'Maid of Honor',
-            relation: 'Friend of the Bride'
+            relation: ''
         },
         {
             id: 2,
-            name: 'PLACEHOLDER',
+            name: 'Reece Gallagher',
             pos: 'Best Man',
-            relation: 'Friend of the Groom'
+            relation: ''
         },
         {
             id: 3,
             name: 'Olivia Lucas',
             pos: 'Maid of Honor',
-            relation: 'Friend of the Bride'
+            relation: ''
         },
         {
             id: 4,
-            name: 'PLACEHOLDER',
+            name: 'Jack Pieters',
             pos: 'Groomsman',
-            relation: 'Friend of the Groom'
+            relation: ''
         },
         {
             id: 5,
             name: 'Nicole Defalco',
             pos: 'Bridesmaid',
-            relation: 'Friend of the Bride'
+            relation: ''
         },
         {
             id: 6,
-            name: 'PLACEHOLDER',
+            name: 'Pasil Salih',
             pos: 'Groomsman',
-            relation: 'Friend of the Groom'
+            relation: ''
         },
         {
             id: 7,
             name: 'Vaidehi Patel',
             pos: 'Bridesmaid',
-            relation: 'Friend of the Bride'
+            relation: ''
         },
         {
             id: 8,
-            name: 'PLACEHOLDER',
+            name: 'Graham Fry',
             pos: 'Groomsman',
-            relation: 'Friend of the Groom'
+            relation: ''
         },
         {
             id: 9,
             name: 'Kendall Mallaro',
             pos: 'Bridesmaid',
-            relation: 'Friend of the Bride'
+            relation: ''
         },
         {
             id: 10,
             name: 'David Butler',
             pos: 'Groomsman',
-            relation: 'Brother of the Bride'
+            relation: ''
         },
         {
             id: 11,
             name: 'Ava Mallaro',
             pos: 'Bridesmaid',
-            relation: 'Friend of the Bride'
+            relation: ''
         },
         {
             id: 12,
             name: 'John Butler',
             pos: 'Groomsman',
-            relation: 'Brother of the Bride'
+            relation: ''
         }
     ];
 
@@ -92,9 +92,14 @@ export default function Wp_page() {
                 ))}
             </div>
             <div className='text-center text-center p-4'>
+                    <div className='text-center text-4xl font-pinyon text-light-sage'>Lauren Carley and Sophia Mason</div>
+                    <div className='text-center font-c_sc text-light-beige'>Personal Attendants</div>
+                    <div className='text-center font-c_sc text-light-beige'></div>
+            </div>
+            <div className='text-center text-center p-4'>
                     <div className='text-center text-4xl font-pinyon text-light-sage'>Chip Uhrmacher</div>
                     <div className='text-center font-c_sc text-light-beige'>Officient</div>
-                    <div className='text-center font-c_sc text-light-beige'>Father of the Groom</div>
+                    <div className='text-center font-c_sc text-light-beige'></div>
             </div>
             <div className='text-center text-center p-4'>
                     <div className='text-center text-4xl font-pinyon text-light-sage'>PLACEHOLDER</div>

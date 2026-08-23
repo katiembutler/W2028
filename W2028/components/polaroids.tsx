@@ -8,6 +8,7 @@ export default function Polaroids() {
             id: 1,
             src: "/images/memories/1.jpg",
             date: "June 26, 2021",
+            info: "Our First Date",
             rotation: "rotate-[-4deg]",
             position: "object-center"
         },
@@ -15,6 +16,7 @@ export default function Polaroids() {
             id: 2,
             src: "/images/memories/2.jpg",
             date: "April 9, 2022",
+            info: "Prom",
             rotation: "rotate-[-3deg]",
             position: "object-top"
         },
@@ -22,6 +24,7 @@ export default function Polaroids() {
             id: 3,
             src: "/images/memories/3.jpg",
             date: "October 15, 2022",
+            info: "Our First Trip to Wilson's",
             rotation: "rotate-[4deg]",
             position: "object-center"
         },
@@ -29,20 +32,23 @@ export default function Polaroids() {
             id: 4,
             src: "/images/memories/4.jpg",
             date: "January 5, 2023",
+            info: "Teaching Xavier to Ski",
             rotation: "rotate-[2deg]",
             position: "object-center"
         },
         {
             id: 5,
-            src: "/images/memories/5.jpg",
-            date: "October 26, 2024",
-            rotation: "rotate-[-2deg]",
+            src: "/images/memories/oct202024.jpg",
+            date: "October 20, 2024",
+            info: "Our First 5k Together",
+            rotation: "rotate-[3deg]",
             position: "object-center"
         },
         {
             id: 6,
             src: "/images/memories/6.jpg",
             date: "December 25, 2024",
+            info: "Christmas 2024",
             rotation: "rotate-[3deg]",
             position: "object-center"
         },
@@ -50,51 +56,59 @@ export default function Polaroids() {
             id: 7,
             src: "/images/memories/7.jpg",
             date: "May 18, 2025",
+            info: "Katie's Graduation",
             rotation: "rotate-[-3deg]",
             position: "object-top"
         },
         {
             id: 8,
-            src: "/images/memories/8.jpg",
-            date: "July 19, 2025",
-            rotation: "rotate-[4deg]",
+            src: "/images/memories/11.jpg",
+            date: "October 25, 2025",
+            info: "Hawkeye Football",
+            rotation: "rotate-[-2deg]",
             position: "object-center"
         },
         {
             id: 9,
-            src: "/images/memories/9.jpg",
-            date: "September 21, 2025",
+            src: "/images/memories/feb152026.jpg",
+            date: "February 15, 2026",
+            info: "Our First Triathlon Together",
             rotation: "rotate-[-4deg]",
             position: "object-center"
         },
         {
             id: 10,
-            src: "/images/memories/10.jpg",
-            date: "October 17, 2025",
-            rotation: "rotate-[2deg]",
+            src: "/images/memories/13.jpg",
+            date: "April 21, 2026",
+            info: "Graduation",
+            rotation: "rotate-[-3deg]",
             position: "object-center"
         },
         {
             id: 11,
-            src: "/images/memories/11.jpg",
-            date: "October 25, 2025",
+            src: "/images/memories/jun22026.jpg",
+            date: "June 2, 2026",
+            info: "Xavier Proposed",
             rotation: "rotate-[-2deg]",
             position: "object-center"
         },
         {
             id: 12,
-            src: "/images/memories/12.jpg",
-            date: "October 31, 2025",
-            rotation: "rotate-[3deg]",
+            src: "/images/memories/jun52026.jpg",
+            date: "June 5, 2026",
+            info: "Exploring Italy",
+            rotation: "rotate-[-4deg]",
             position: "object-center"
         },
         {
             id: 13,
-            src: "/images/memories/13.jpg",
-            date: "April 21, 2026",
-            rotation: "rotate-[-3deg]",
+            src: "/images/memories/jul182026.jpg",
+            date: "July 18, 2026",
+            info: "Moved to Kansas City",
+            rotation: "rotate-[-2deg]",
             position: "object-center"
         },
+
     ];
 
 
@@ -136,6 +150,10 @@ export default function Polaroids() {
                             {/* Date Stamp */}
                             <div className="flex flex-col items-center justify-center text-center mt-2">
                                 <span className="font-c_sc text-2xl text-sage tracking-wide">{memory.date}</span>
+                            </div>
+                            {/* Info Stamp */}
+                            <div className="flex flex-col items-center justify-center text-center mt-2">
+                                <span className="font-c_sc text-2xl text-sage tracking-wide">{memory.info}</span>
                             </div>
                         </div>
                     </div>
