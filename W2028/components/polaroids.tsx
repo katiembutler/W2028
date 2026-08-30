@@ -81,7 +81,7 @@ export default function Polaroids() {
             src: "/images/memories/13.jpg",
             date: "April 21, 2026",
             info: "Graduation",
-            rotation: "rotate-[-3deg]",
+            rotation: "rotate-[3deg]",
             position: "object-center"
         },
         {
@@ -97,7 +97,7 @@ export default function Polaroids() {
             src: "/images/memories/jun52026.jpg",
             date: "June 5, 2026",
             info: "Exploring Italy",
-            rotation: "rotate-[-4deg]",
+            rotation: "rotate-[4deg]",
             position: "object-center"
         },
         {

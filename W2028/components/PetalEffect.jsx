@@ -57,8 +57,8 @@ export default function PetalEffect() {
           className="absolute text-2xl animate-petal flex items-center justify-center"
           style={{
             /* Center the petal exactly on the mouse cursor tip */
-            left: petal.x + 10, 
-            top: petal.y + 25,
+            left: petal.x - 10, 
+            top: petal.y,
             /* Pass the random math to our CSS via CSS Variables */
             "--offset-x": `${petal.offsetX}px`,
             "--start-rot": `${petal.startRot}deg`,

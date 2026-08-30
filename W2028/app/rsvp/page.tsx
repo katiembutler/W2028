@@ -74,7 +74,7 @@ export default function RSVP() {
                         
                         {hasSearched && !foundParty && (
                             <p className="text-red-500 font-bold mt-2 text-center text-sm">
-                                Invitation Not Found. Please check your spelling.
+                                Invitation not found. Please check your spelling.
                             </p>
                         )}
                     </div>
